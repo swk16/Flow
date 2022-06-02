@@ -123,6 +123,9 @@ public class Player : MonoBehaviour
 # endregion
 
 #region End
+    public void SceneChange(){
+        input.DisableAllInput();
+    }
 #endregion
 
 }
