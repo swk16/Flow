@@ -24,6 +24,10 @@ public class ViewPort : Singleton<ViewPort>
 
     public Vector3 PlayerMoveablePostion(Vector3 playerPosition)
     {
+        if(playerPosition.x < -9f){
+            playerPosition.x = -9f;
+        }
+        
         playerPosition.y = Mathf.Clamp(playerPosition.y, minY, maxY);
         return playerPosition;
     }
