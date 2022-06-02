@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         collider = GetComponent<Collider2D>();
         rb.gravityScale = 0f;
+        animator = GetComponent<Animator>();
 
         waitDecelerationTime = new WaitForSeconds(decelerationTime);
         colorDamp = m_spriteRenderer.color;
@@ -57,10 +58,11 @@ public class Player : MonoBehaviour
         StopCoroutine(nameof(MoveRangeLimatationCoroutine));
     }
 
-    private void Start() {
+    void OnAnimationEnd(){
         input.EnableGameInput();
         StartCoroutine(nameof(MoveRangeLimatationCoroutine));
         rb.velocity = buoyancyVelocity;
+        Camera.main.GetComponent<CameraFollow>().enabled = true;
     }
 
 # region Move
