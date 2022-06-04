@@ -22,6 +22,10 @@ public class Player : MonoBehaviour
     [SerializeField] SpriteRenderer m_spriteRenderer;
     [SerializeField] float oneTimeDamagePercent;
 
+    [Header("Audio")]
+    [SerializeField] AudioClip takeDamageAudio;
+
+
 
     Rigidbody2D rb;
     new Collider2D collider;
@@ -119,13 +123,12 @@ public class Player : MonoBehaviour
     void TakeDamage(){
         colorDamp.a = colorDamp.a + 1*oneTimeDamagePercent*0.01f;
         m_spriteRenderer.color = colorDamp;
+        AudioManager.Instance.PlaySFX(takeDamageAudio, 1f);
     }
 # endregion
 
 #region End
-    public void SceneChange(){
-        input.DisableAllInput();
-    }
+
 #endregion
 
 }
