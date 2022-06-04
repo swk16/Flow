@@ -13,7 +13,7 @@ public class ViewPort : Singleton<ViewPort>
     void Start()
     {
         Camera mainCamera = Camera.main;
-        Vector2 bottomLeft = mainCamera.ViewportToWorldPoint(new Vector2(0f, 0.15f));
+        Vector2 bottomLeft = mainCamera.ViewportToWorldPoint(new Vector2(0f, 0.03f));
         Vector2 topRight = mainCamera.ViewportToWorldPoint(new Vector2(1f, 0.65f));
 
         minX = bottomLeft.x;
