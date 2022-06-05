@@ -13,4 +13,9 @@ public class CameraFollow : MonoBehaviour
             yield return null;
         }
     }
+
+    //a public method to stop Start coroutine
+    public void StopFollow(){
+        StopCoroutine("Start");
+    }
 }
