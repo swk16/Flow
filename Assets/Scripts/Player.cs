@@ -19,11 +19,15 @@ public class Player : MonoBehaviour
     [SerializeField] Animator animator;
 
     [Header("Health")]
+    [SerializeField] float damage;
     [SerializeField] SpriteRenderer m_spriteRenderer;
     [SerializeField] float oneTimeDamagePercent;
 
     [Header("Audio")]
     [SerializeField] AudioClip takeDamageAudio;
+    [SerializeField] float takeDamageSFXVolume =1f;
+
+    [SerializeField] 
 
 
 
@@ -117,13 +121,15 @@ public class Player : MonoBehaviour
 #endregion
 
 # region Collision
+
 # endregion
 
 #region Health
     void TakeDamage(){
         colorDamp.a = colorDamp.a + 1*oneTimeDamagePercent*0.01f;
         m_spriteRenderer.color = colorDamp;
-        AudioManager.Instance.PlaySFX(takeDamageAudio, 1f);
+        //AudioManager.Instance.PlaySFX(takeDamageAudio, takeDamageSFXVolume);
+
     }
 # endregion
 
