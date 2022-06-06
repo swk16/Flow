@@ -403,15 +403,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd2fc6d911491994a9a67bc09961e4de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  currentHealth: 0
   input: {fileID: 11400000, guid: 1b02157f764ccd241b3973f9a7407b77, type: 2}
   buoyancyVelocity: {x: 0, y: 1.5}
-  moveSpeed: 6
+  moveSpeed: 10
   accelerationTime: 0.3
   decelerationTime: 0.3
   animator: {fileID: 0}
+  damage: 0
   m_spriteRenderer: {fileID: 1019078084}
   oneTimeDamagePercent: 33
   takeDamageAudio: {fileID: 0}
+  takeDamageSFXVolume: 1
+  rb: {fileID: 0}
 --- !u!1 &4685955289220313474
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4685955289220313474}
   m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
