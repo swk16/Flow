@@ -168,7 +168,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468013399410117291}
   m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -383,10 +383,9 @@ Animation:
   m_GameObject: {fileID: 4647359629078301993}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 78523ece4ad40cf4da6d32f43049ccca, type: 2}
+  m_Animation: {fileID: 7400000, guid: ecc7f045a2593e94f9cbe02c93778945, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: 78523ece4ad40cf4da6d32f43049ccca, type: 2}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: ecc7f045a2593e94f9cbe02c93778945, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -407,7 +406,7 @@ MonoBehaviour:
   currentHealth: 0
   input: {fileID: 11400000, guid: 1b02157f764ccd241b3973f9a7407b77, type: 2}
   buoyancyVelocity: {x: 0, y: 1.5}
-  moveSpeed: 10
+  moveSpeed: 3
   accelerationTime: 0.3
   decelerationTime: 0.3
   animator: {fileID: 0}
@@ -442,7 +441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4685955289220313474}
   m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0, z: -0.17}
+  m_LocalPosition: {x: -0.67, y: -0.29, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

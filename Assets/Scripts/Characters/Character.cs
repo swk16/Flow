@@ -23,8 +23,9 @@ public class Character : MonoBehaviour
     }
     public virtual void Die()
     {
+        currentHealth = 0f;
         gameObject.SetActive(false);
-        
+
     }
 
 }
