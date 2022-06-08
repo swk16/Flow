@@ -57,6 +57,7 @@ public class Player : Character
     private void OnEnable() {
         input.onMove += Move;
         input.onStopMove += StopMove;
+        currentHealth = maxHealth;
         
     }
     private void OnDisable() {
@@ -125,11 +126,15 @@ public class Player : Character
 # endregion
 
 #region Health
-    void TakeDamage(){
-        colorDamp.a = colorDamp.a + 1*oneTimeDamagePercent*0.01f;
+    override public void TakeDamage(){
+        currentHealth -= 10f;
+        if (currentHealth <= 0f)
+        {
+            Die();
+        }   
+        colorDamp.a = colorDamp.a + 10f*0.01f;
         m_spriteRenderer.color = colorDamp;
         //AudioManager.Instance.PlaySFX(takeDamageAudio, takeDamageSFXVolume);
-
     }
 # endregion
 

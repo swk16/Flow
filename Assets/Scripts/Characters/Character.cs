@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    [SerializeField] protected float maxHealth;
+    [SerializeField] protected float maxHealth = 100f;
 
     [SerializeField] protected float currentHealth;
-
-    protected void OnEnable()
+    public virtual void TakeDamage()
     {
-        currentHealth = maxHealth;
-    }
-    public virtual void TakeDamage(float damage)
-    {
-        currentHealth -= damage;
+        currentHealth -= 10f;
         if (currentHealth <= 0f)
         {
             Die();

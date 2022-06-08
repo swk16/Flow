@@ -10,15 +10,14 @@ public class colider : MonoBehaviour
 
 
     
-    private void OnCollidertEnter2D(Collider2D collision)
+    private void OnCollidertEnter2D(Collider2D other)
     {
-        if (collision.GetComponent<Collider2D>().tag == "Player" )
+        Debug.Log("Colid not player");
+        if (other.gameObject.tag == "Player")
         {
             Debug.Log ("collision");
 
             AudioManager.Instance.PlaySFX(takeDamageAudio, takeDamageSFXVolume);
-
-
         }
     }
 
