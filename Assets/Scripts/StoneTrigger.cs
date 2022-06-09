@@ -32,6 +32,8 @@ public class StoneTrigger : MonoBehaviour
             bezierX = other.gameObject.transform.position.x + 6;
             bezierY = stone.transform.position.y;
             bezierPoint = new Vector2(bezierX, bezierY);
+            
+        
             if(stoneBezierCoroutine != null) {
                 StopCoroutine(stoneBezierCoroutine);
             }
