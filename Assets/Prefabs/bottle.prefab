@@ -407,7 +407,7 @@ MonoBehaviour:
   currentHealth: 0
   input: {fileID: 11400000, guid: 1b02157f764ccd241b3973f9a7407b77, type: 2}
   buoyancyVelocity: {x: 0, y: 1.5}
-  moveSpeed: 2.5
+  moveSpeed: 7
   accelerationTime: 0.3
   decelerationTime: 0.3
   animator: {fileID: 0}
