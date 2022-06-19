@@ -1,16 +1,28 @@
 # Flow
-UnityGameFlowGit
 
-# 6.7 01.28
-1. 承受伤害的damage有问题
-我按照阿严写的damage系统写了一个，然后把那个破碎图片放置在asset/image里，名字为liefeng，但是附着不上，做不了那个效果。
+Teamwork(Member name: Wenkai Song, Linhao Hu, Qiwei Zhang, Hanya Liu, Congcong Xie)
+"Flow" made with Unity
+Unity version : 2021.3.3f1
+Github link: https://github.com/swk16/Flow
+Video link: https://www.youtube.com/watch?v=EPysCxyiBAs 
 
-2. 最后加载的视频（已解决！！！）
-视频的背景是灰色的，不是原视频的黑色的，而且视频音量无法调节（已解决）
+## Project Description:
 
-3. bottle与其他物体碰撞
-发不了声音，甚至检测不到碰撞
-我给第一个branches（位置所在场景一 interact objects）物体装装载了 colider脚本但是在debug 碰撞不出来。不能播放声音。
+If I exist, it's because you need me.
+Guide souls through the "river" and protect them from the devil's hand.
+Tell them the truth and escort them to places they haven't been or want to go.
+The "river" is located in the middle of the two worlds, and one must cross it after death.
+Everyone has to cross their own “river".
+Discover the truth of your obsession in this place, then re-experience and accept it.
+Lead the soul to traverse more unseen places.
+The journey is not smooth sailing,
+A firm and brave heart can escort it to the final destination of the soul.
+Flow is an adventure and survival game that takes about 7 minutes. The player controls a bottle protected
+by a guardian spirit by using “ASWD” on keyboard so that it can successfully pass 4 levels and finally
+reach the end of the game. Hope you like this game!
 
-# 6.8 04.32
-1. 海鸥的贝塞尔曲线出现先了问题，这个待研究
+
+Idea from :
+
+
+
