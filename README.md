@@ -10,6 +10,8 @@ Github link: https://github.com/swk16/Flow
 
 Video link: https://www.youtube.com/watch?v=EPysCxyiBAs 
 
+Download link: https://s1w6k.itch.io/flow
+
 
 ## Project Description:
 
