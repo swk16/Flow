@@ -1,10 +1,15 @@
 # Flow
 
 Teamwork(Member name: Wenkai Song, Linhao Hu, Qiwei Zhang, Hanya Liu, Congcong Xie)
+
 "Flow" made with Unity
+
 Unity version : 2021.3.3f1
+
 Github link: https://github.com/swk16/Flow
+
 Video link: https://www.youtube.com/watch?v=EPysCxyiBAs 
+
 
 ## Project Description:
 
@@ -22,7 +27,12 @@ by a guardian spirit by using “ASWD” on keyboard so that it can successfully
 reach the end of the game. Hope you like this game!
 
 
-Idea from :
+## Idea from :
 
+we had seen this news before:
+
+Recently, this picture has been hotly discussed on the social platform facebook. Just this April, someone in the United States picked up a bottle on the coast. Take a look at the picture. Someone is holding a transparent bottle with one hand and some gray inside. His ashes and a note that read in English "Please don't open me, my ashes are on a voyage at sea, and I started this journey from Cumberland Island in the southeastern United States." The note should be written on the deceased's own words, and the bottle should also contain his ashes. The owner seriously instructed the person who picked up the bottle on the note, "If you see me, please take a photo and send it here. E-mail, and throw me back into the sea, I want to keep traveling."
+
+![avatar](D:\unreal project\Flow/bottle.png)
 
 
