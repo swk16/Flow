@@ -48,19 +48,30 @@ Recently, this picture has been hotly discussed on the social platform facebook.
 ![avatar](https://p1-tt.byteimg.com/origin/tos-cn-i-qvj2lq49k0/d42e4769c91245fcb78edef5ec7201c4.jpg)
 
 
-### Project task divisions
+## Project task divisions
 
-Game level design: the whole team
+#### Game level design: the whole team
 
-Coding part(C# scripts edit and build models in the game): Wenkai Song and Linhao Hu 
+#### Coding part(C# scripts edit and build models in the game): The  whole team.
+
+ Wenkai Song: Player Input Script and Environment built
+
+ Linhao Hu: Animations Control Script
+
+ Qiwei Zhang: UI and Sceneloader Script
+
+ Hanya Liu: Sound System Script
+
+ Congcong Xie: SceneSwitcher Script
+
 (You can find all the codes and scripts with this link:https://github.com/swk16/Flow/tree/main/Game/Assets/Scripts)
 
-Arts part(illustrations and UI in the game ):Wenkai Song and Qiwei Zhang
+#### Arts part(illustrations in the game ):Wenkai Song and Qiwei Zhang
 (You can find all the illustrations with this link:https://github.com/swk16/Flow/tree/main/Illustrations)
 
-Video in the game (words and videos): Congcong Xie and Hanya Liu
+#### Video in the game (words and videos): Congcong Xie and Hanya Liu
 
-Music part: Hanya liu 
+#### Music part: Hanya liu 
 
 
 
