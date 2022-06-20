@@ -1,5 +1,15 @@
 # Flow
 
+
+![avatar](./main.png)
+
+
+
+
+
+
+
+
 Teamwork(Member name: Wenkai Song, Linhao Hu, Qiwei Zhang, Hanya Liu, Congcong Xie)
 
 "Flow" made with Unity
