@@ -43,11 +43,12 @@ Recently, this picture has been hotly discussed on the social platform facebook.
 Game level design: the whole team
 
 Coding part(C# scripts edit and build models in the game): Wenkai Song and Linhao Hu 
-(You can find all the codes and scripts with this link:https://github.com/swk16/Flow/tree/main/Assets/Scripts)
+(You can find all the codes and scripts with this link:https://github.com/swk16/Flow/tree/main/Game/Assets/Scripts)
 
 Arts part(illustrations and UI in the game ):Wenkai Song and Qiwei Zhang
+(You can find all the illustrations with this link:https://github.com/swk16/Flow/tree/main/Illustrations)
 
-video in the game (words and videos): Congcong Xie and Hanya Liu
+Video in the game (words and videos): Congcong Xie and Hanya Liu
 
 Music part: Hanya liu 
 
